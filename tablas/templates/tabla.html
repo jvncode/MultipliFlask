@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="/static/css/skeleton.css">
+<a href="/"> Volver a Tablas</a>
+
+  <h1>Tabla del {{vTabla}}</h1>
+    <section class="traceback">
+        {% for mTabla in range(1,11)%}
+        <p>{{vTabla}} X {{mTabla}}  = {{vTabla*mTabla}}</p>
+        {% endfor %}
+    </section>
+<footer>
+    &copy;Aplicación desarrollada por JVNCode
+</footer>
